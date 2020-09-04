@@ -1,0 +1,176 @@
+
+html 
+  font-size: 10px
+  font-family: 'Roboto'
+
+a
+  text-decoration: none
+  color: #000
+  &:hover
+    text-decoration: none
+
+
+.header
+  &__navbar
+    padding: 1.3rem 0 1.6rem 0
+    &-brand
+      @media (max-width: 575.98px)
+        margin: auto
+    &-menu
+      @media (max-width: 991.98px)
+        display: flex
+      @media (max-width: 767.98px)
+        flex-direction: column
+        justify-content: center
+      ul
+        padding: 1rem
+        margin-right: 0
+  &__link
+    margin-left: 3rem
+    color: #0e3263 !important
+    font-weight: 700 
+    font-size: 1.6rem
+  &__btn
+    padding: 1.2rem 3rem
+    font-size: 1.7rem
+    font-weight: 700
+    text-decoration: none
+    border: none
+    border-radius: 5px
+  &__ordering
+    background: no-repeat url("../images/header-girl.jpg")
+    @media (max-width: 575.98px)
+      background-position: -52rem 0
+    color: #fff
+    padding: 11rem 0 6rem 0
+    @media (max-width: 575.98px)
+      text-align: center
+    &-title
+      margin-bottom: 1.5rem
+      font-size: 4rem
+      font-weight: 700
+    &-description
+      margin-bottom: 12rem
+      font-size: 1.6rem
+      @media (max-width: 575.98px)
+        margin-bottom: 5rem
+
+
+.features
+  @media (max-width: 575.98px)
+    padding: 1rem
+    text-align: center
+  &__title
+    font-size: 4rem
+    margin-bottom: 6rem
+  &__description
+    font-size: 1.6rem
+    margin-bottom: 4rem
+  &__list
+    ul
+      padding-left: 0
+  &__cards
+    @media (max-width: 575.98px)
+      justify-content: center !important
+  .card 
+    width: 22rem
+    border: none
+    text-align: left
+    font-size: 1.6rem
+    @media (max-width: 575.98px)
+      display: flex
+      align-items: center
+      margin: 3rem 1rem
+    &-body
+      padding-left: 0
+      @media (max-width: 575.98px)
+        padding: 1rem 0 0 0
+        text-align: center
+    img
+      width: 4rem
+
+
+.presentation
+  padding: 11rem 0
+  background-color: #f6f6f6
+  @media (max-width: 575.98px)
+    display: flex
+    align-items: center
+    padding: 4rem 0
+  &__title
+    font-size: 4rem
+    margin-bottom: 10rem
+    @media (max-width: 575.98px)
+      text-align: center
+  &__card
+    margin-bottom: 2rem
+    padding: 1rem
+    font-size: 1.7rem
+    background-color: transparent
+    border: none
+    .card
+      margin: 0
+    @media (max-width: 575.98px)
+      text-align: center
+      margin-bottom: 4rem
+    img
+      width: 15rem
+      @media (max-width: 575.98px)
+        margin: auto
+
+.ordering
+  padding: 12rem 0
+  &__title
+    margin-bottom: 5rem
+    font-size: 2.5rem
+    font-weight: 700
+    text-align: center
+  &__input
+    border: none
+    color: #7f7f7f
+    font-size: 1.3rem
+    padding: 2rem 1rem 
+  &__form
+    padding: 4rem
+    max-width: 41rem
+    background-color: #f6f6f6
+    font-size: 1.6rem
+    &-terms
+      margin-left: 3rem;
+      font-size: 1rem;
+    .btn
+      font-size: 1.3rem
+  &__select
+    position: relative
+    &-description
+      position: absolute
+      top: 0
+      left: 25px
+      font-size: 1rem
+      color: #7f7f7f
+      z-index: 1153
+  a
+    color: blue
+    text-decoration: underline
+
+
+.footer
+  &__copyright
+    padding-top: 2rem
+    color: #999999
+  .support
+    padding: 1rem 1rem 0 1rem
+    font-weight: 700 
+    border-bottom: 1px solid #ececec
+    &-number
+      display: block
+      font-size: 1.4rem
+      margin-bottom: 1rem  
+      color: #212529  
+    &-description
+      display: block
+      position: relative
+      font-size: 1rem
+      text-transform: uppercase
+    &-about
+      color: #7f7f7f !important
